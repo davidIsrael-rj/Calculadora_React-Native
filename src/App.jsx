@@ -1,9 +1,11 @@
 import { SafeAreaView, StyleSheet, Text } from "react-native"
+import Button from "./components/Button"
 
 function App() {
     return(
         <SafeAreaView style={style.App}>
             <Text>Calculadora</Text>
+            <Button label="CA"/>
         </SafeAreaView>
     )
 }
