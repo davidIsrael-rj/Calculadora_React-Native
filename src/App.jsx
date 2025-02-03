@@ -3,7 +3,13 @@ import { StyleSheet, View } from "react-native"
 import Button from "./components/Button"
 import Display from "./components/Display"
 
-
+const initialState ={
+    displayValue: '0',
+    clearDisplay: false,
+    operation: null,
+    values:[0,0],
+    current: 0,
+}
 
 export default class App extends Component {
     state ={
